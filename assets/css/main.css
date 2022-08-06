@@ -361,6 +361,9 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 		}
 
 		.row > .off-4 {
@@ -3459,6 +3462,8 @@ input, select, textarea {
 			.main {
 				padding: 2em 1.5em 0.1em 1.5em ;
 			}
+
+			
 
 		/* Header */
 
